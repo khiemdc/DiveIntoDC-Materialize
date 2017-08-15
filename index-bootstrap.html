@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dive into DC</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  <script type = "text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+  <style>
+    body {
+        background-image: url("images/concrete_seamless.png");
+    } 
+    .itinerary {
+      background: #fff; 
+      height: 50px; 
+      width: 250px; 
+      margin-top: 10px; 
+      padding: 20px; 
+      font-size: 20px; 
+      color: blue;
+      }
+    .imageHolder {
+      margin-top: 10px;
+    }  
+    hr {
+        background-color: #ccc; 
+        height: 2px;
+        }
+    h2 {
+      color: black; 
+      font-size: 20px;
+      }
+  </style>
+  </head>
+<body>
+<!-- header -->
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="index.html">“PLAN LESS, EXPLORE MORE”</a>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="#">About Washington DC</a></li>
+      <li><a href="#">Emergency contact information</a></li>
+      <li><a href="#">How to use this App</a></li>
+    </ul>
+  </div>
+</nav>
+<!-- Main container-->
+<div class="container">
+    <div class="row">
+      <div class="col-md-12">
+      <div style="padding: 0px; overflow: auto">
+        <div style="color: #4aaaa5; font-size: 35px;">
+          <p><h1>Dive Into DC</h1></p></div>
+      </div>
+      </div>
+    </div>
+</div>
+
+<div class="container">
+<div style="background: #fff; padding: 20px;">
+    <div class="row">
+      <div class="col-md-12">
+      <div style="width: 100%;">
+
+<form>
+<hr><h2>How many day you will be in DC?</h2>
+
+<input type='radio' name='days' value='1' id="oneDay">
+<label class="carousel slide" id="three">
+                    <img src="images/dc2.gif" alt="Nature" height="125px" width="200px" >    
+            <div class="carousel-caption">
+              <div style="background: #4aaaa5; font-weight: normal; font-size: 16px;">
+                <p>1 day</p></div>
+              </div></label>
+<input type='radio' name='days' value='3' id="threeDays">
+<label class="carousel slide" id="three">
+                    <img src="images/dc2.gif" alt="Nature" height="125px" width="200px" >    
+            <div class="carousel-caption">
+              <div style="background: #4aaaa5; font-weight: normal; font-size: 16px;">
+                <p>3 days</p></div>
+              </div>
+              </label>
+<input type='radio' name='days' value='5' id="fiveDays">
+<label class="carousel slide" id="three">
+                    <img src="images/dc1.gif" alt="Nature" height="125px" width="200px" >    
+            <div class="carousel-caption">
+              <div style="background: #4aaaa5; font-weight: normal; font-size: 16px;">
+                <p>5 days</p></div>
+              </div>
+              </label>
+
+
+<hr><h2> How many people are you going with? </h2>
+<input type='radio' name='people' value='self' id='self'>
+<label class="carousel slide" id="three">
+                    <img src="https://media.giphy.com/media/GR9Pw1sZa2XaU/giphy.gif" alt="Nature" height="125px" width="200px" >    
+            <div class="carousel-caption">
+              <div style="background: #4aaaa5; font-weight: normal; font-size: 16px;">
+                <p>Myself</p></div>
+              </div></label>
+<input type='radio' name='people' value='couple' id='couple'>
+<label class="carousel slide" id="three">
+                    <img src="images/couple.gif" alt="Nature" height="115px" width="200px" >    
+            <div class="carousel-caption">
+              <div style="background: #4aaaa5; font-weight: normal; font-size: 16px;">
+                <p>Couple</p></div>
+              </div>
+              </label>
+<input type='radio' name='people' value='family' id='family'>
+<label class="carousel slide" id="three">
+                    <img src="images/family.gif" alt="Nature" height="125px" width="200px" >    
+            <div class="carousel-caption">
+              <div style="background: #4aaaa5; font-weight: normal; font-size: 16px;">
+                <p>Family</p></div>
+              </div>
+              </label>
+
+
+<hr><h2> How action packed do you want your day to be? </h2>
+<input type='radio' name='action' value='easy' id="easyDay">
+<label class="carousel slide" id="three">
+                    <img src="images/food2.gif" alt="Nature" height="125px" width="200px" >    
+            <div class="carousel-caption">
+              <div style="background: #4aaaa5; font-weight: normal; font-size: 16px;">
+                <p>Top Attractions</p></div>
+              </div></label>
+<input type='radio' name='action' value='medium' id="mediumDay">
+<label class="carousel slide" id="three">
+                    <img src="images/art.gif" alt="Nature" height="125px" width="200px" >    
+            <div class="carousel-caption">
+              <div style="background: #4aaaa5; font-weight: normal; font-size: 16px;">
+                <p>Packed Itinerary</p></div>
+              </div>
+              </label>
+<input type='radio' name='action' value='busy' id="busyDay">
+<label class="carousel slide" id="three">
+                    <img src="images/food1.gif" alt="Nature" height="125px" width="200px" >    
+            <div class="carousel-caption">
+              <div style="background: #4aaaa5; font-weight: normal;  font-size: 16px;">
+                <p>Easy Going</p></div>
+              </div>
+             </label>
+
+</form>
+<div style="margin-left: 260px; margin-top: 10px;">
+<button id="submitButton">Submit Button</button>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="container" id="display-itinerary">
+  <div style="background: #fff; height: 450px; margin-top: 30px; padding: 20px; overflow: auto;">
+    <div class="row">
+      <div class="col-md-12">
+        
+          <div class="col-md-9">   
+          <h2>Your Personalized Itinerary:</h2>
+          </div>
+              
+          <div class="col-md-3">
+          <div id="map" style="float:right; margin-right: 30px; height: 400px; width: 400px"></div>
+          </div>
+      </div>
+</div>
+</div>
+</div>
+</div>
+<!-- Footer -->
+  <center>
+    <div style="height: 60px; background: #666; border-top: 5px solid #4aaaa5; padding: 20px; margin-top: 20px; font-size: 16px;"><p> &copy; Team of Mahdia - Andrea - Khiem</p></div>
+  </center>
+
+<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyD85yQOwYvdRXaa8LwfhDbnNd5xYcQxFxo",
+    authDomain: "dc-button.firebaseapp.com",
+    databaseURL: "https://dc-button.firebaseio.com",
+    projectId: "dc-button",
+    storageBucket: "",
+    messagingSenderId: "656368330026"
+  };
+  firebase.initializeApp(config);
+</script>
+<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAde-XEwDer3UAxRX_X4IZTRERIecXKPZI&callback=initMap">
+    </script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script src="dcbutton.js"></script>
+
+
+
+</body>
+</html>
