@@ -4,4 +4,4 @@ The Dive into DC app allows the user to personalize an itinerary depending on ho
 
 Using the google maps API and the google places API, this map was created. Using the OpenWeatherApp API, the real time DC weather was presented below the map. Using Materialize, the css was adjusted.
 
-To view the live website follow this link: andreapinillos.github.io/DiveIntoDC/ 
+To view the live website follow this link: https://khiemdc.github.io/DiveIntoDC-Materialize/index.html 
