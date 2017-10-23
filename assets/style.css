@@ -1,0 +1,190 @@
+/* css here */
+
+{
+  border: 1px dotted black;
+}
+
+body {
+    background: url("images/flag.jpg")
+    no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.nav-wrapper{
+ background-color: #960606;
+ padding-top: 10px;
+ }
+
+#display-itinerary {
+      background: #fff; 
+      height: 50px; 
+      width: 450px; 
+      margin-top: 10px; 
+      padding: 10px; 
+      font-size: 20px; 
+      color: black;
+      }
+
+.itinerary{
+  color: black;
+  padding: 15px;
+  margin: 5px;
+}
+
+.itinerary-name{
+  font-size: 26px;
+  font-weight: bold;
+}
+
+#map{
+  display: inline-block;
+}
+#openweathermap-widget-15 {
+  display:inline-block;
+  margin-top: 20px;
+}
+
+.holder {
+    height: 200px;  
+    width: 100%;
+      margin-top: 10px;
+    }  
+
+.work {
+  position: relative;
+  float: left;
+  width: 200px;
+  height: 100px;
+  /* margin: 20px 0 25px;
+  overflow: auto;*/
+}
+
+.work:nth-child(even) {
+  margin-right: 40px;
+}
+
+.work img {
+  width: 100%;
+  height: 125px;
+  border: 0 none;
+  /*opacity: 0.8;*/
+}
+
+.work h3 {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 30px;
+  padding: 0px;
+  margin-bottom: 0;
+  /*font-weight: 300;
+  line-height: 30px; */
+  color: #fff;
+  text-align: center;
+  background: #960606;
+  border-bottom: 0;
+}
+
+.auth-image {
+  float: left;
+  width: 200px;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 25px;
+}
+
+
+p.question {
+  font-family: Arial, sans-serif;
+    font-size:20px;
+  color: #2E2E2E;
+  margin-bottom:0px;
+}
+
+h2.quizHeader {
+  font-family: Arial, sans-serif;
+  font-weight:normal;
+  font-size:25px;
+  line-height: 27px;
+  margin: 24px 0 12px 0;
+  padding: 0 0 4px 0;
+  border-bottom: 1px solid #a2a2a2;
+}
+
+h2.quizScore{
+  font-family: Arial, sans-serif;
+  font-size:25px;
+}
+
+div.quizAnswers{
+  font-family: Arial, sans-serif;
+  font-size:16px;
+  color: #424242;
+  padding: 4px 0 4px 0;
+}
+
+label {
+  font-family: Arial, sans-serif;
+  font-size:14px;
+  color: #424242;
+  vertical-align:top;
+}
+
+input.answer[type="radio"] {
+  margin-bottom: 10px;
+}
+
+.submitter {
+    width:85px;
+}
+
+.hide {
+    display:none;
+}
+
+/*SFS light red = #c30b0a;
+SFS dark red = #9f2026; */
+
+
+/*mobile responsiveness */
+@media only screen and (max-width: 930px) {
+  #map, #openweathermap-widget-15{
+    display: flex;
+    flex-direction: column; /* For vertical placement of items */
+  }
+
+  .itinerary{
+    flex: 1;
+  }
+
+
+  header .container {
+    padding: 0;
+  }
+  main.container {
+    padding-top: 0;
+  }
+  .nav-wrapper,
+  .work,
+  #nav-mobile {
+    width: 100%;
+  }
+  nav {
+    /* Box-model */
+    width: 100%;
+    /* Positioning */
+    margin: 15px 0;
+    /* Typography */
+    text-align: center;
+  }
+  nav a {
+    /* Box-model */
+    width: 30%;
+    padding-left: 0;
+    /* Positioning */
+    margin-left: 0;
+  }
+}

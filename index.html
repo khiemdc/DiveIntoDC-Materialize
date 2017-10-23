@@ -6,33 +6,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="assets/style.css">
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
   <link href='https://fonts.googleapis.com/css?family=Geo' rel='stylesheet' type='text/css'>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
   <script type = "text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
-  <style>
-    body {
-        background-image: url("images/washingtondc.jpg");
-    } 
-  </style>
 </head>
 <body>
 <!--header -->
 <nav>
-    <div class="nav-wrapper">
-      <a href="#" class="brand-logo">“Plan Less, Explore More”</a>
+    <div class="nav-wrapper" style="border-bottom: 5px solid #424242;">
+      <div style="margin-left: 80px;"><a href="#" class="brand-logo">Dive Into DC</a></div>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="#">About Washington DC</a></li>
-        <li><a href="#">Emergency contact information</a></li>
-        <li><a href="#">How to use this App</a></li>
-      </ul>
+        <div style="margin-right: 50px; margin-top: 10px; font-size: 20px;"><li>“Plan Less, Explore More”</li></div>
+        </ul>
     </div>
   </nav>
 
 <div class="container">
      <div style="color: #4aaaa5; font-size: 35px; margin-top: 30px;">
-          <p><h3>Dive Into DC</h3></p></div>
+          <!--<p><h3><strong>Dive Into DC</strong></h3></p></div>-->
       </div>
       
 </div>
@@ -42,100 +35,101 @@
     <div class="row">
       <div class="col s12">
       
-	<!-- <table style="width:960px"> -->
+  <!-- <table style="width:960px"> -->
+<form action="" class="form" method="post">
+  <div class="holder">
+  <tr>
+    <td>
+      <hr>
+        <p class="question">How many days are you going to be in DC?</p><br>
 
-	<div class="holder">
-	<tr>
-	  <td>
-	  	<hr>
-	  		<p class="question">How many day you will be in DC?</p>
+        <ul>
 
-	    	<ul>
-
-	    	<input name="days" type="radio" value="1" id="oneDay"/> <label for="oneDay"><div class="work">
-      <img src="images/dc2.gif" alt="1 day">
+        <input name="days" type="radio" value="1" id="oneDay"/> <label for="oneDay"><div class="work">
+      <img src="assets/images/dc2.gif" alt="1 day">
       <h3>1 day</h3>
      </div></label>
-	    	
-	        <input name="days" type="radio" value="3" id="threeDay"/> <label for="threeDay"><div class="work">
-      <img src="images/dc1.gif" alt="3 days">
+        
+          <input name="days" type="radio" value="3" id="threeDay"/> <label for="threeDay"><div class="work">
+      <img src="assets/images/dc1.gif" alt="3 days">
       <h3>3 days</h3>
      </div></label>
-	        
-	        <input name="days" type="radio" value="5" id="fiveDay"/> <label for="fiveDay"><div class="work">
-      <img src="images/dc2.gif" alt="5 days">
+          
+          <input name="days" type="radio" value="5" id="fiveDay"/> <label for="fiveDay"><div class="work">
+      <img src="assets/images/dc.gif" alt="5 days">
       <h3>5 days</h3>
      </div></label>
 </ul>
-	  
-	  </td>
-	  </tr>
-	 </div>
-	
+    
+    </td>
+    </tr>
+   </div>
+  
 
 <div class="holder">
-	  <tr>
-	  <td>
-	  	  	<hr>
-	  		<p class="question">How many people are you going with?</p>
+    <tr>
+    <td>
+          <hr>
+        <p class="question">How many people are you going with?</p><br>
 
-	    	<ul>
-	        <input class="with-gap" name="people" type="radio" value="self" id="self"/> <label for="self"><div class="work">
-      <img src="https://media.giphy.com/media/GR9Pw1sZa2XaU/giphy.gif" alt="myself">
+        <ul>
+          <input class="with-gap" name="people" type="radio" value="self" id="self"/> <label for="self"><div class="work">
+      <img src="assets/images/alonegirl.gif" alt="myself">
       <h3>Myself</h3>
      </div></label>
-	    
+      
 
-	        <input class="with-gap" name="people" type="radio" value="couple" id="couple"/> <label for="couple"><div class="work">
-      <img src="images/couple.gif" alt="couple">
+          <input class="with-gap" name="people" type="radio" value="couple" id="couple"/> <label for="couple"><div class="work">
+      <img src="assets/images/couple.gif" alt="couple">
       <h3>Couple</h3>
      </div></label>
-	        
-	        <input class="with-gap" name="people" type="radio" value="family" id="family"/> <label for="family"><div class="work">
-      <img src="images/family.gif" alt="family">
+          
+          <input class="with-gap" name="people" type="radio" value="family" id="family"/> <label for="family"><div class="work">
+      <img src="assets/images/family.gif" alt="family">
       <h3>Family</h3>
      </div></label>
-	        
-	    	</ul>
-	
-	  </td>
-	</tr>
-  	</div>
+          
+        </ul>
+  
+    </td>
+  </tr>
+    </div>
 
 <div class="holder">
-	<tr>
-	  <td>
-			<hr>
-	 		<p class="question">How action packed do you want your day to be?</p>	        
-			<ul>
-	        <input class="with-gap" name="action" type="radio" value="easy" id="easy"/> <label for="easy"><div class="work">
-      <img src="images/food2.gif" alt="top attractions">
-      <h3>Top Attractions</h3>
-     </div></label>
-	     
-	        <input class="with-gap" name="action" type="radio" value="medium" id="mediumDay"/> <label for="mediumDay"><div class="work">
-      <img src="images/art.gif" alt="packed itinerary">
-      <h3>Packed Itinerary</h3>
-     </div></label>
-	        
-
-	        <input class="with-gap" name="action" type="radio" value="busy" id="busyDay"/> <label for="busyDay"><div class="work">
-      <img src="images/food1.gif" alt="easy going">
+  <tr>
+    <td>
+      <hr>
+      <p class="question">How action packed do you want your day to be?</p><br>        
+      <ul>
+          <input class="with-gap" name="action" type="radio" value="easyDay" id="easyDay"/> <label for="easyDay"><div class="work">
+      <img src="assets/images/easy.gif" alt="easy going">
       <h3>Easy Going</h3>
      </div></label>
-	        
-	        
-	    	</ul>
-	
-	  </td>
-	
-	</tr>
-	</div>
+       
+          <input class="with-gap" name="action" type="radio" value="topDay" id="topDay"/> <label for="topDay"><div class="work">
+      <img src="assets/images/busy.gif" alt="packed itinerary">
+      <h3>Busy Itinerary</h3>
+     </div></label>
+          
 
-	<!--</table> -->
+          <input class="with-gap" name="action" type="radio" value="busy" id="busyDay"/> <label for="busyDay"><div class="work">
+      <img src="assets/images/top.gif" alt="top attractions">
+      <h3>Top Attractions</h3>
+     </div></label>
+          
+          
+        </ul>
+  
+    </td>
+  
+  </tr>
+  </div>
+  </form>
+
+  <!--</table> -->
 
 <div style="margin-left: 300px; margin-top: 10px;">
-<button class="btn waves-effect waves-light" id="submitButton">Submit</button>
+<button class="btn waves-effect waves-light red darken-4" id="submitButton">Submit</button>
 </div>
 
 </div>
@@ -145,16 +139,29 @@
 
 
 <div class="container">
-<div style="background: #fff; height: 450px; margin-top: 20px; padding: 20px; overflow: auto;">
+<div style="background: #fff; height: 600px; margin-top: 20px; padding: 20px; overflow: auto;">
   <div class="row">
    <div class="col s12">
       <div class="col s8">
         <div id="display-itinerary">
-          <p>Your Personalized Itinerary:</p>
+         <div class="itinerary-name"> <p>Your Personalized Itinerary:</p></div><br>
+          <div class="itinerary" id="Morning"><b>Morning: </b>
+          <ul class="morningList"></ul>
+        </div><br>
+       
+        <div class="itinerary" id="Afternoon"><b>Afternoon: </b>
+            <ul class="afternoonList"></ul>
+        </div><br>
+        
+        <div class="itinerary" id="evening"><b>Evening: </b>
+            <ul class="eveningList"></ul>
+        </div>
         </div>
       </div>     
       <div class="col s4">
-          <div id="map" style="float:right; margin-right: 10px; height: 300px; width: 300px;"></div>
+          <div id="map" style="float:right; margin-right: 10px; height: 300px; width: 300px;"></div><br><br><br>
+          <div id="weather">The Weather Forecast for today is: </div><br>
+          <div id="openweathermap-widget-15" style="float:right; margin-right: 10px; width: 300px;"></div>
       </div>
     </div>
   </div>
@@ -164,7 +171,7 @@
 
 <!-- Footer -->
   <center>
-    <div style="height: 60px; background: #666; border-top: 5px solid #4aaaa5; padding: 20px; margin-top: 20px; font-size: 16px;"><p> &copy; Team of Mahdia - Andrea - Khiem</p></div>
+    <div style="height: 60px; background: #960606; border-top: 5px solid #424242; padding: 20px; margin-top: 20px; font-size: 16px; color: white"><p> &copy; Team of Mahdia - Andrea - Khiem</p></div>
   </center>
 
 <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
@@ -179,22 +186,19 @@
     messagingSenderId: "656368330026"
   };
   firebase.initializeApp(config);
-
 //images FadeOut when click
   $( ".work" ).click(function() {
   $( this ).fadeTo( "fast", 0.5 );
 });
-
 </script>
 <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAde-XEwDer3UAxRX_X4IZTRERIecXKPZI&callback=initMap">
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAde-XEwDer3UAxRX_X4IZTRERIecXKPZI&libraries=places&callback=initMap">
     </script>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-<script src="dcbutton.js"></script>
+<script src="assets/main.js"></script>
 
 
 </body>
 </html>
-
